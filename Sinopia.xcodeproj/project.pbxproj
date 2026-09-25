@@ -1,0 +1,917 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D726A143BDF8912B4000C40 /* ContactRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1504919641446C96147126E /* ContactRow.swift */; };
+		15F352661C73D5196B4D2E41 /* CodexStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F1D096EA962B76EADAB5E0 /* CodexStore.swift */; };
+		1D45ACDC19F7D0B72BE85DF5 /* OnboardingFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D641FF978D042EA00051164C /* OnboardingFlow.swift */; };
+		2229C4D5E6E48CEEA815164F /* BondSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1B7D98E33FFD45524E99F7 /* BondSheet.swift */; };
+		2AB2067CA4A82B8F723E10BA /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48201861E710176CF4774BA /* SettingsScreen.swift */; };
+		3BD12B47562A87CA4E77B094 /* CenterRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D37D589A03C4C6C4DE40D93F /* CenterRule.swift */; };
+		4D169B70168A46F02A73649A /* TypeScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB8876885D4489007B79DA9 /* TypeScale.swift */; };
+		5900AC27BC397AB427DB4415 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0462FB05ECD035577823A16A /* NotificationService.swift */; };
+		5C0952FA801F590A488378CE /* SinopiaCore in Frameworks */ = {isa = PBXBuildFile; productRef = C393986DA60224E5FAF421C7 /* SinopiaCore */; };
+		5F1B25E2437DF5A4A457AE83 /* Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF75949D1FF825F0DA77FC5 /* Tokens.swift */; };
+		68581BCD760E9A5BEC17F4C5 /* SinopiaCore in Frameworks */ = {isa = PBXBuildFile; productRef = 712EB4118A9BAAFB5A665D58 /* SinopiaCore */; };
+		695A796D4CB5D49DBCF86E7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 153F45DBE7888CD68FDAF51A /* ContentView.swift */; };
+		703522078E094870536DA150 /* DesignTokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A8D310065B488617D53EFAC /* DesignTokens.swift */; };
+		73ADA2BB0B8304FCD745C067 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3467E92D15638F574E840901 /* APIConfig.swift */; };
+		7AD8D0A271E267DB52EF41AD /* Motion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49BFCFBBBD92753D1B66AD9C /* Motion.swift */; };
+		7C4C3A351A5CF039CC678520 /* SpolveroOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D94D41934F79870019F1A082 /* SpolveroOverlay.swift */; };
+		7D497BD59BDAEE3C1BF6048C /* SinopiaCanvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002EE1B64336FA7943CB3BEB /* SinopiaCanvas.swift */; };
+		8059DD661BDA640B75C10E9F /* CountFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D6FA069BB3D4FE24BBB7BD4 /* CountFormat.swift */; };
+		87FA5D8EBB56CBE676A36038 /* Radius.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43B60790CCC653E241D109 /* Radius.swift */; };
+		8B28CA65B7E6187DC65E3763 /* GiornataTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29263B682F63F10C24B3C642 /* GiornataTile.swift */; };
+		90ECD92F0A7577C35B94896E /* ReviewLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B9587A62E8CEE78848D5A4 /* ReviewLaunch.swift */; };
+		9AF8C5992A9F0B8FFCBC96C4 /* LeafModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 231B9FD8BDDA4797FE315EC4 /* LeafModel.swift */; };
+		9D3640F81FAC418D02397BBA /* PressButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 070D5F11DEA1076401ED8967 /* PressButtonStyle.swift */; };
+		9D74A555A2E7DC227ADB3828 /* PersonField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38BFBF2D1E10109499D171C6 /* PersonField.swift */; };
+		A0B50F74587983D893851C65 /* Space.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7A672B1A1E24D10785CAA93 /* Space.swift */; };
+		A3F890541256D5EFB95A665D /* DemoSeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FF65B4877F2C6488745206F /* DemoSeed.swift */; };
+		A7501217A6348701E39C1B33 /* DiptychStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF229F6C83348038BCAF7905 /* DiptychStateTests.swift */; };
+		B03501AB051D26E8630D49FE /* SeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC3AD4CE1424D873FF15FB /* SeedTests.swift */; };
+		B14AF087FF9AB3059A8A4AF3 /* DiptychScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C65FF0B0492552D139DD1F /* DiptychScreen.swift */; };
+		B276A24258C04A87CD8CB449 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0A2EC2EE0375F408C761090A /* OneSignalNotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B2AC3CE114CA9929DC92599B /* LeafRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786A0172CAC7C6A92F79EED /* LeafRoute.swift */; };
+		B713F91CE344F7AD53F2FBFA /* PressControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4B76DBA74818B890FF59B /* PressControl.swift */; };
+		B81387D0660E4F3CC3606945 /* PressedLeafView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19B565EC93036D8B959702E /* PressedLeafView.swift */; };
+		C127243494A2BD989489C5D4 /* OneSignalInAppMessages in Frameworks */ = {isa = PBXBuildFile; productRef = DF1764ADFF61DF30E37404A7 /* OneSignalInAppMessages */; };
+		CEED1EAE74C149045CF853CC /* ReviewScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50308D24CBF213738D084A1 /* ReviewScreen.swift */; };
+		D631BE5F384ADBCD80D13E4D /* PontataEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = A969A9CC2309570E5C1A7C8C /* PontataEmpty.swift */; };
+		D8525151FF34F7A4E1CCDD44 /* GessoEmptyLeaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D5E930FA923AC9B1AF9D0C /* GessoEmptyLeaf.swift */; };
+		DB20DDBE03188CA9FB15CD96 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 8C6B6D71B610D0A3DE6F27E9 /* Alamofire */; };
+		DBFBFC1C400697CA1A632DFC /* SinopiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C876C65FB9C0926F45C100 /* SinopiaApp.swift */; };
+		E078D9C28D56EDCB26783F83 /* OneSignalExtension in Frameworks */ = {isa = PBXBuildFile; productRef = 5A17E8FCD70CCA15062A9994 /* OneSignalExtension */; };
+		E45ED24726AF81F457C1DF08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165E320555C3D47A880356A5 /* AppDelegate.swift */; };
+		E578F13CE0299204EB1B6F07 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = 4666DECA628661E6D4CDA762 /* OneSignalFramework */; };
+		E73319A04AC1B0E0B051FEFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 572ADFA52DCEE333BB97AB8B /* Assets.xcassets */; };
+		E7DC7CC6B1616EAEC5480C56 /* SinopiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2B62D9C9EE556A8F2D181D8 /* SinopiaTests.swift */; };
+		E8C16E8DC0F55A01B4EF2A27 /* ArriccioBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7628B9D36900B86488CAE2D7 /* ArriccioBanner.swift */; };
+		F3EBD0286639D562F58006F5 /* PontataSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55C1745AECB0C5F219B598 /* PontataSheet.swift */; };
+		F68DE6C87DB5B2C0962A963A /* InkPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D0462F495A058C6D5C7CC79 /* InkPicker.swift */; };
+		FEBE942EAFD2DF78AC30B02B /* BondDaysCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1DC4179B0F4D6289E5F095 /* BondDaysCard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0476A08C77D3E64DB6712B19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB2CA4FDA051E88378EFDCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6F42DF42396A97012DF5A851;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+		A84123A34110195001D3D774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFB2CA4FDA051E88378EFDCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 588A531FC8757AD6C6689382;
+			remoteInfo = Sinopia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7AB81E146E89CC6BC0EB27DB /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B276A24258C04A87CD8CB449 /* OneSignalNotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		002EE1B64336FA7943CB3BEB /* SinopiaCanvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinopiaCanvas.swift; sourceTree = "<group>"; };
+		0462FB05ECD035577823A16A /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		04C876C65FB9C0926F45C100 /* SinopiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinopiaApp.swift; sourceTree = "<group>"; };
+		070D5F11DEA1076401ED8967 /* PressButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressButtonStyle.swift; sourceTree = "<group>"; };
+		0A2EC2EE0375F408C761090A /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D0462F495A058C6D5C7CC79 /* InkPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InkPicker.swift; sourceTree = "<group>"; };
+		0EF75949D1FF825F0DA77FC5 /* Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokens.swift; sourceTree = "<group>"; };
+		0F1DC4179B0F4D6289E5F095 /* BondDaysCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondDaysCard.swift; sourceTree = "<group>"; };
+		153F45DBE7888CD68FDAF51A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		165E320555C3D47A880356A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18B9587A62E8CEE78848D5A4 /* ReviewLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewLaunch.swift; sourceTree = "<group>"; };
+		1FEC3AD4CE1424D873FF15FB /* SeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedTests.swift; sourceTree = "<group>"; };
+		231B9FD8BDDA4797FE315EC4 /* LeafModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafModel.swift; sourceTree = "<group>"; };
+		29263B682F63F10C24B3C642 /* GiornataTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiornataTile.swift; sourceTree = "<group>"; };
+		29C65FF0B0492552D139DD1F /* DiptychScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiptychScreen.swift; sourceTree = "<group>"; };
+		3467E92D15638F574E840901 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		38BFBF2D1E10109499D171C6 /* PersonField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonField.swift; sourceTree = "<group>"; };
+		48D5E930FA923AC9B1AF9D0C /* GessoEmptyLeaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GessoEmptyLeaf.swift; sourceTree = "<group>"; };
+		49BFCFBBBD92753D1B66AD9C /* Motion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motion.swift; sourceTree = "<group>"; };
+		4A8D310065B488617D53EFAC /* DesignTokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignTokens.swift; sourceTree = "<group>"; };
+		572ADFA52DCEE333BB97AB8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5786A0172CAC7C6A92F79EED /* LeafRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafRoute.swift; sourceTree = "<group>"; };
+		5AB8876885D4489007B79DA9 /* TypeScale.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeScale.swift; sourceTree = "<group>"; };
+		5D6FA069BB3D4FE24BBB7BD4 /* CountFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountFormat.swift; sourceTree = "<group>"; };
+		5E1B7D98E33FFD45524E99F7 /* BondSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BondSheet.swift; sourceTree = "<group>"; };
+		635EB5E93A163B276C1FEDE4 /* Sinopia.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Sinopia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7628B9D36900B86488CAE2D7 /* ArriccioBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArriccioBanner.swift; sourceTree = "<group>"; };
+		79C5539CB8A68338CD39F50E /* SinopiaCore */ = {isa = PBXFileReference; lastKnownFileType = folder; name = SinopiaCore; path = Packages/SinopiaCore; sourceTree = SOURCE_ROOT; };
+		84D4B76DBA74818B890FF59B /* PressControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressControl.swift; sourceTree = "<group>"; };
+		8FF65B4877F2C6488745206F /* DemoSeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoSeed.swift; sourceTree = "<group>"; };
+		A969A9CC2309570E5C1A7C8C /* PontataEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontataEmpty.swift; sourceTree = "<group>"; };
+		AAAB754A88961D89968A2D83 /* SinopiaTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = SinopiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB55C1745AECB0C5F219B598 /* PontataSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PontataSheet.swift; sourceTree = "<group>"; };
+		B2B62D9C9EE556A8F2D181D8 /* SinopiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinopiaTests.swift; sourceTree = "<group>"; };
+		B50308D24CBF213738D084A1 /* ReviewScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewScreen.swift; sourceTree = "<group>"; };
+		B7A672B1A1E24D10785CAA93 /* Space.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Space.swift; sourceTree = "<group>"; };
+		C19B565EC93036D8B959702E /* PressedLeafView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PressedLeafView.swift; sourceTree = "<group>"; };
+		D1504919641446C96147126E /* ContactRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactRow.swift; sourceTree = "<group>"; };
+		D37D589A03C4C6C4DE40D93F /* CenterRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterRule.swift; sourceTree = "<group>"; };
+		D48201861E710176CF4774BA /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		D641FF978D042EA00051164C /* OnboardingFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingFlow.swift; sourceTree = "<group>"; };
+		D94D41934F79870019F1A082 /* SpolveroOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpolveroOverlay.swift; sourceTree = "<group>"; };
+		E2F1D096EA962B76EADAB5E0 /* CodexStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexStore.swift; sourceTree = "<group>"; };
+		EF43B60790CCC653E241D109 /* Radius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Radius.swift; sourceTree = "<group>"; };
+		FF229F6C83348038BCAF7905 /* DiptychStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiptychStateTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C1C0D96FE91E778D1943AD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68581BCD760E9A5BEC17F4C5 /* SinopiaCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D553C55C93B2107E700CCB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E078D9C28D56EDCB26783F83 /* OneSignalExtension in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1B06FBEB2D6522667CDB8B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0952FA801F590A488378CE /* SinopiaCore in Frameworks */,
+				DB20DDBE03188CA9FB15CD96 /* Alamofire in Frameworks */,
+				E578F13CE0299204EB1B6F07 /* OneSignalFramework in Frameworks */,
+				C127243494A2BD989489C5D4 /* OneSignalInAppMessages in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		038A21615F45F1BA7BDC7EB3 /* Seed */ = {
+			isa = PBXGroup;
+			children = (
+				8FF65B4877F2C6488745206F /* DemoSeed.swift */,
+			);
+			path = Seed;
+			sourceTree = "<group>";
+		};
+		0474BD30E079BEF45D7A03BE /* SinopiaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF229F6C83348038BCAF7905 /* DiptychStateTests.swift */,
+				1FEC3AD4CE1424D873FF15FB /* SeedTests.swift */,
+				B2B62D9C9EE556A8F2D181D8 /* SinopiaTests.swift */,
+			);
+			path = SinopiaTests;
+			sourceTree = "<group>";
+		};
+		157781AF19563C4549C1DFFB = {
+			isa = PBXGroup;
+			children = (
+				2251635BB5322568F08251A3 /* OneSignalNotificationServiceExtension */,
+				192475150223CA4FD9BF6C83 /* Packages */,
+				8050E684FD804AE50CD9FAD5 /* Sinopia */,
+				0474BD30E079BEF45D7A03BE /* SinopiaTests */,
+				57E09F0961634120DB7D1DF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		192475150223CA4FD9BF6C83 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				79C5539CB8A68338CD39F50E /* SinopiaCore */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		2251635BB5322568F08251A3 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0462FB05ECD035577823A16A /* NotificationService.swift */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		46CEAF15A2CB31E1000EEDCC /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				5D6FA069BB3D4FE24BBB7BD4 /* CountFormat.swift */,
+				49BFCFBBBD92753D1B66AD9C /* Motion.swift */,
+				070D5F11DEA1076401ED8967 /* PressButtonStyle.swift */,
+				EF43B60790CCC653E241D109 /* Radius.swift */,
+				B7A672B1A1E24D10785CAA93 /* Space.swift */,
+				0EF75949D1FF825F0DA77FC5 /* Tokens.swift */,
+				5AB8876885D4489007B79DA9 /* TypeScale.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		4A5F6C51EEFA38F5A6AB0C63 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				D641FF978D042EA00051164C /* OnboardingFlow.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		57E09F0961634120DB7D1DF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A2EC2EE0375F408C761090A /* OneSignalNotificationServiceExtension.appex */,
+				635EB5E93A163B276C1FEDE4 /* Sinopia.app */,
+				AAAB754A88961D89968A2D83 /* SinopiaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8050E684FD804AE50CD9FAD5 /* Sinopia */ = {
+			isa = PBXGroup;
+			children = (
+				3467E92D15638F574E840901 /* APIConfig.swift */,
+				165E320555C3D47A880356A5 /* AppDelegate.swift */,
+				572ADFA52DCEE333BB97AB8B /* Assets.xcassets */,
+				153F45DBE7888CD68FDAF51A /* ContentView.swift */,
+				4A8D310065B488617D53EFAC /* DesignTokens.swift */,
+				18B9587A62E8CEE78848D5A4 /* ReviewLaunch.swift */,
+				04C876C65FB9C0926F45C100 /* SinopiaApp.swift */,
+				F1BF0766A246AEC3ED3B0AB8 /* App */,
+				E31A0A5B5053862545AEB107 /* Bond */,
+				46CEAF15A2CB31E1000EEDCC /* Design */,
+				F8E05511045F0C7D73760435 /* Diptych */,
+				4A5F6C51EEFA38F5A6AB0C63 /* Onboarding */,
+				B09143020E720580016DF433 /* Pontata */,
+				F4211361A3E7A971132CFC32 /* Review */,
+				038A21615F45F1BA7BDC7EB3 /* Seed */,
+				891210243D42696EC379FF5A /* Settings */,
+			);
+			path = Sinopia;
+			sourceTree = "<group>";
+		};
+		891210243D42696EC379FF5A /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				D1504919641446C96147126E /* ContactRow.swift */,
+				D48201861E710176CF4774BA /* SettingsScreen.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B09143020E720580016DF433 /* Pontata */ = {
+			isa = PBXGroup;
+			children = (
+				29263B682F63F10C24B3C642 /* GiornataTile.swift */,
+				A969A9CC2309570E5C1A7C8C /* PontataEmpty.swift */,
+				AB55C1745AECB0C5F219B598 /* PontataSheet.swift */,
+				C19B565EC93036D8B959702E /* PressedLeafView.swift */,
+			);
+			path = Pontata;
+			sourceTree = "<group>";
+		};
+		E31A0A5B5053862545AEB107 /* Bond */ = {
+			isa = PBXGroup;
+			children = (
+				0F1DC4179B0F4D6289E5F095 /* BondDaysCard.swift */,
+				5E1B7D98E33FFD45524E99F7 /* BondSheet.swift */,
+				0D0462F495A058C6D5C7CC79 /* InkPicker.swift */,
+				38BFBF2D1E10109499D171C6 /* PersonField.swift */,
+			);
+			path = Bond;
+			sourceTree = "<group>";
+		};
+		F1BF0766A246AEC3ED3B0AB8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E2F1D096EA962B76EADAB5E0 /* CodexStore.swift */,
+				231B9FD8BDDA4797FE315EC4 /* LeafModel.swift */,
+				5786A0172CAC7C6A92F79EED /* LeafRoute.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		F4211361A3E7A971132CFC32 /* Review */ = {
+			isa = PBXGroup;
+			children = (
+				B50308D24CBF213738D084A1 /* ReviewScreen.swift */,
+			);
+			path = Review;
+			sourceTree = "<group>";
+		};
+		F8E05511045F0C7D73760435 /* Diptych */ = {
+			isa = PBXGroup;
+			children = (
+				7628B9D36900B86488CAE2D7 /* ArriccioBanner.swift */,
+				D37D589A03C4C6C4DE40D93F /* CenterRule.swift */,
+				29C65FF0B0492552D139DD1F /* DiptychScreen.swift */,
+				48D5E930FA923AC9B1AF9D0C /* GessoEmptyLeaf.swift */,
+				84D4B76DBA74818B890FF59B /* PressControl.swift */,
+				002EE1B64336FA7943CB3BEB /* SinopiaCanvas.swift */,
+				D94D41934F79870019F1A082 /* SpolveroOverlay.swift */,
+			);
+			path = Diptych;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		588A531FC8757AD6C6689382 /* Sinopia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B27479DE29AF088F010D1907 /* Build configuration list for PBXNativeTarget "Sinopia" */;
+			buildPhases = (
+				56CB442AAAFD42D8E152BF2E /* Sources */,
+				40B8BD49A977687E87BCE803 /* Resources */,
+				D1B06FBEB2D6522667CDB8B4 /* Frameworks */,
+				7AB81E146E89CC6BC0EB27DB /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6607576CBCEB105D1D969D6D /* PBXTargetDependency */,
+			);
+			name = Sinopia;
+			packageProductDependencies = (
+				C393986DA60224E5FAF421C7 /* SinopiaCore */,
+				8C6B6D71B610D0A3DE6F27E9 /* Alamofire */,
+				4666DECA628661E6D4CDA762 /* OneSignalFramework */,
+				DF1764ADFF61DF30E37404A7 /* OneSignalInAppMessages */,
+			);
+			productName = Sinopia;
+			productReference = 635EB5E93A163B276C1FEDE4 /* Sinopia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C8E76DFE516DE99F703D58D /* SinopiaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 963A5C12A710025D0B24E6FD /* Build configuration list for PBXNativeTarget "SinopiaTests" */;
+			buildPhases = (
+				7840E88A1AB769C03E7AD719 /* Sources */,
+				0C1C0D96FE91E778D1943AD0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8CDFC4B1AE8138DCF9250AA /* PBXTargetDependency */,
+			);
+			name = SinopiaTests;
+			packageProductDependencies = (
+				712EB4118A9BAAFB5A665D58 /* SinopiaCore */,
+			);
+			productName = SinopiaTests;
+			productReference = AAAB754A88961D89968A2D83 /* SinopiaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6F42DF42396A97012DF5A851 /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71EC6D1550133F25C1568DF8 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				C5F079B6767A1EE1B2A8722C /* Sources */,
+				4D553C55C93B2107E700CCB8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			packageProductDependencies = (
+				5A17E8FCD70CCA15062A9994 /* OneSignalExtension */,
+			);
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 0A2EC2EE0375F408C761090A /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFB2CA4FDA051E88378EFDCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					588A531FC8757AD6C6689382 = {
+						ProvisioningStyle = Automatic;
+					};
+					6C8E76DFE516DE99F703D58D = {
+						ProvisioningStyle = Automatic;
+					};
+					6F42DF42396A97012DF5A851 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F870B4754B48A046E408A339 /* Build configuration list for PBXProject "Sinopia" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 157781AF19563C4549C1DFFB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				9E6BED7CE75BF4843F93E36B /* XCRemoteSwiftPackageReference "Alamofire" */,
+				CBB255160F327565D7909B54 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+				00D4B4FE10C16475FE22FB59 /* XCLocalSwiftPackageReference "Packages/SinopiaCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 57E09F0961634120DB7D1DF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				588A531FC8757AD6C6689382 /* Sinopia */,
+				6C8E76DFE516DE99F703D58D /* SinopiaTests */,
+				6F42DF42396A97012DF5A851 /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40B8BD49A977687E87BCE803 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E73319A04AC1B0E0B051FEFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56CB442AAAFD42D8E152BF2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73ADA2BB0B8304FCD745C067 /* APIConfig.swift in Sources */,
+				E45ED24726AF81F457C1DF08 /* AppDelegate.swift in Sources */,
+				E8C16E8DC0F55A01B4EF2A27 /* ArriccioBanner.swift in Sources */,
+				FEBE942EAFD2DF78AC30B02B /* BondDaysCard.swift in Sources */,
+				2229C4D5E6E48CEEA815164F /* BondSheet.swift in Sources */,
+				3BD12B47562A87CA4E77B094 /* CenterRule.swift in Sources */,
+				15F352661C73D5196B4D2E41 /* CodexStore.swift in Sources */,
+				0D726A143BDF8912B4000C40 /* ContactRow.swift in Sources */,
+				695A796D4CB5D49DBCF86E7E /* ContentView.swift in Sources */,
+				8059DD661BDA640B75C10E9F /* CountFormat.swift in Sources */,
+				A3F890541256D5EFB95A665D /* DemoSeed.swift in Sources */,
+				703522078E094870536DA150 /* DesignTokens.swift in Sources */,
+				B14AF087FF9AB3059A8A4AF3 /* DiptychScreen.swift in Sources */,
+				D8525151FF34F7A4E1CCDD44 /* GessoEmptyLeaf.swift in Sources */,
+				8B28CA65B7E6187DC65E3763 /* GiornataTile.swift in Sources */,
+				F68DE6C87DB5B2C0962A963A /* InkPicker.swift in Sources */,
+				9AF8C5992A9F0B8FFCBC96C4 /* LeafModel.swift in Sources */,
+				B2AC3CE114CA9929DC92599B /* LeafRoute.swift in Sources */,
+				7AD8D0A271E267DB52EF41AD /* Motion.swift in Sources */,
+				1D45ACDC19F7D0B72BE85DF5 /* OnboardingFlow.swift in Sources */,
+				9D74A555A2E7DC227ADB3828 /* PersonField.swift in Sources */,
+				D631BE5F384ADBCD80D13E4D /* PontataEmpty.swift in Sources */,
+				F3EBD0286639D562F58006F5 /* PontataSheet.swift in Sources */,
+				9D3640F81FAC418D02397BBA /* PressButtonStyle.swift in Sources */,
+				B713F91CE344F7AD53F2FBFA /* PressControl.swift in Sources */,
+				B81387D0660E4F3CC3606945 /* PressedLeafView.swift in Sources */,
+				87FA5D8EBB56CBE676A36038 /* Radius.swift in Sources */,
+				90ECD92F0A7577C35B94896E /* ReviewLaunch.swift in Sources */,
+				CEED1EAE74C149045CF853CC /* ReviewScreen.swift in Sources */,
+				2AB2067CA4A82B8F723E10BA /* SettingsScreen.swift in Sources */,
+				DBFBFC1C400697CA1A632DFC /* SinopiaApp.swift in Sources */,
+				7D497BD59BDAEE3C1BF6048C /* SinopiaCanvas.swift in Sources */,
+				A0B50F74587983D893851C65 /* Space.swift in Sources */,
+				7C4C3A351A5CF039CC678520 /* SpolveroOverlay.swift in Sources */,
+				5F1B25E2437DF5A4A457AE83 /* Tokens.swift in Sources */,
+				4D169B70168A46F02A73649A /* TypeScale.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7840E88A1AB769C03E7AD719 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7501217A6348701E39C1B33 /* DiptychStateTests.swift in Sources */,
+				B03501AB051D26E8630D49FE /* SeedTests.swift in Sources */,
+				E7DC7CC6B1616EAEC5480C56 /* SinopiaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5F079B6767A1EE1B2A8722C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5900AC27BC397AB427DB4415 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6607576CBCEB105D1D969D6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6F42DF42396A97012DF5A851 /* OneSignalNotificationServiceExtension */;
+			targetProxy = 0476A08C77D3E64DB6712B19 /* PBXContainerItemProxy */;
+		};
+		A8CDFC4B1AE8138DCF9250AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 588A531FC8757AD6C6689382 /* Sinopia */;
+			targetProxy = A84123A34110195001D3D774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1381267134FE342FE4798A18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinopialeaf.press.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5AE2AD76FBD22C94ECDFC8DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Sinopia.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Sinopia-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sinopia;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinopialeaf.press;
+				PRODUCT_NAME = Sinopia;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5DDD3E432EB6006D82A5B6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinopialeaf.press.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sinopia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sinopia";
+			};
+			name = Debug;
+		};
+		74F7236B0BC982A2D76BE224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Support/Sinopia.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/Sinopia-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Sinopia;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app does not use the camera.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinopialeaf.press;
+				PRODUCT_NAME = Sinopia;
+				SDKROOT = iphoneos;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C6E55B07BEA574C1F7E24E19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Support/OneSignalNotificationServiceExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Support/OneSignalNotificationServiceExtension-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OneSignalNotificationServiceExtension;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinopialeaf.press.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = OneSignalNotificationServiceExtension;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EAF48E6D16142E0B27E162DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		EBD6F1F7AAD6A47074DD209B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sinopialeaf.press.tests;
+				SDKROOT = iphoneos;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sinopia.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sinopia";
+			};
+			name = Release;
+		};
+		FC1E3494B87B74B78AC5B27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71EC6D1550133F25C1568DF8 /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1381267134FE342FE4798A18 /* Debug */,
+				C6E55B07BEA574C1F7E24E19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		963A5C12A710025D0B24E6FD /* Build configuration list for PBXNativeTarget "SinopiaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5DDD3E432EB6006D82A5B6C6 /* Debug */,
+				EBD6F1F7AAD6A47074DD209B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B27479DE29AF088F010D1907 /* Build configuration list for PBXNativeTarget "Sinopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74F7236B0BC982A2D76BE224 /* Debug */,
+				5AE2AD76FBD22C94ECDFC8DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F870B4754B48A046E408A339 /* Build configuration list for PBXProject "Sinopia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC1E3494B87B74B78AC5B27A /* Debug */,
+				EAF48E6D16142E0B27E162DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		00D4B4FE10C16475FE22FB59 /* XCLocalSwiftPackageReference "Packages/SinopiaCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/SinopiaCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9E6BED7CE75BF4843F93E36B /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/rg8tv2gc29-tech/Alamofire";
+			requirement = {
+				kind = revision;
+				revision = f4801b9f61363a74beb39cd962192b3956e34a92;
+			};
+		};
+		CBB255160F327565D7909B54 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4666DECA628661E6D4CDA762 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBB255160F327565D7909B54 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalFramework;
+		};
+		5A17E8FCD70CCA15062A9994 /* OneSignalExtension */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBB255160F327565D7909B54 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalExtension;
+		};
+		712EB4118A9BAAFB5A665D58 /* SinopiaCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SinopiaCore;
+		};
+		8C6B6D71B610D0A3DE6F27E9 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9E6BED7CE75BF4843F93E36B /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		C393986DA60224E5FAF421C7 /* SinopiaCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SinopiaCore;
+		};
+		DF1764ADFF61DF30E37404A7 /* OneSignalInAppMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CBB255160F327565D7909B54 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignalInAppMessages;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = DFB2CA4FDA051E88378EFDCC /* Project object */;
+}

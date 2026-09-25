@@ -1,0 +1,17 @@
+The app requests no permissions and never presents a camera, photos, microphone, location, or tracking prompt. There are no usage-description strings because no permission prompts appear.
+
+There is no login, no in-app purchase, no public user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+
+Sinopia is a shared daily drawing leaf for two people who use one device. Each person sketches their half of today's split leaf; both halves stay visible. When both sides hold ink, Press locks that day as one keepsake. It is for couples, close friends, or a parent and child who want a drawn ritual, not a typed one.
+
+No credentials or demo account are needed. On a device, a cold launch opens the introduction, not the leaf. Top right shows Skip; bottom shows Continue. Page 1: Two halves, one leaf. / Each person sketches their side. Both stay visible. Continue. Page 2: Ink can cross the seam. / A stroke that passes the center leaves a tint on the other half. Continue. Page 3: Press locks the day. / When both halves hold ink, Press writes the keepsake. Continue. Page 4: Name both people. Fields Left name and Right name, prefilled with Left and Right. Bottom: Start. Skip writes the names Left and Right and opens the leaf. Start uses the typed names, or Left and Right if a field is left blank, then opens the leaf. Navigation title Leaf shows a blank leaf: Blank leaf. / Sketch the first half. The other person draws beside you. / Sketch. Tap Sketch for the split drawing surface. Tap a chip to select a half, draw with a finger or a stylus, then tap Press when both halves hold ink. Press opens the Leaves sheet with the new tile at the top. Tap Pontata to open Leaves, or Bond to open People. From People, open Settings for Haptics, Contact, Show introduction, and Erase every leaf. On Leaves, tap a tile to open Pressed, then Share for a PNG when ready. On Simulator, the introduction is skipped; the leaf opens already named Mara and Leo, with today's both halves already inked so Press is enabled, and four older pressed leaves already on the wall. Settings then includes Demo leaves are loaded on Simulator.
+
+Data stays on this device. Nothing is uploaded for an account. Share opens the system share sheet with a PNG the person chooses to send. Contact in Settings opens the contact page outside the app.
+
+Copy is English. Dates and numbers follow the device locale; behaviour is the same in every region.
+
+No licence or regulated-industry paperwork applies. This is a Lifestyle drawing keepsake on one device and does not involve regulated products or industries.
+
+The app is a personal log only and gives no recommendations. It does not show health, medical, or product-health information.
+
+The app does not scan barcodes or QR codes.

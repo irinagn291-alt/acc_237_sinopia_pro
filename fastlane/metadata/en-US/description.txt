@@ -1,0 +1,16 @@
+Sinopia is a shared daily drawing leaf for two people who use one device. Each person sketches their half of today's split leaf; both halves stay visible. When both sides hold ink, Press locks that day as one keepsake. It is for couples, close friends, or a parent and child who want a drawn ritual, not a typed one.
+
+• Shared daily leaf for two people on one device
+• Split drawing surface; both halves always visible
+• "Sketch" on a blank leaf
+• Named halves and assigned inks ("Left name", "Right name", "Swap inks")
+• Ink that crosses the seam leaves a tint on the other half
+• "Undo" peels the newest stroke and its tint together
+• "Press" locks the day when both halves hold ink
+• "Leaves" wall of pressed days, newest first
+• "Pressed" read-only leaf and "Share" as a PNG
+• "Carried over" half when only one person drew before the day rolled
+• "People" names, inks, and "days bonded" with marks at 7, 30, 90, and 365
+• "Settings": "Haptics", PNG export readout, "Contact", "Show introduction", "Erase every leaf"
+
+All of this stays on this device unless the person uses "Share".
