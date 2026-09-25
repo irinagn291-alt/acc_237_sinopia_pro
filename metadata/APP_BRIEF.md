@@ -1,4 +1,4 @@
-<!-- gf-brief source=4728671c1fed3c2096311ebb59baf299a90d5167c26f2141562e2845bbd7fdb6 written=2026-09-26T01:33:54+03:00 -->
+<!-- gf-brief source=4728671c1fed3c2096311ebb59baf299a90d5167c26f2141562e2845bbd7fdb6 written=2026-09-26T01:34:10+03:00 -->
 # Sinopia
 ## What it is
 Sinopia is a shared daily drawing leaf for two people who use one device. Each person sketches their half of today’s split leaf; both halves stay visible. When both sides hold ink, Press locks that day as one keepsake. It is for couples, close friends, or a parent and child who want a drawn ritual, not a typed one.
