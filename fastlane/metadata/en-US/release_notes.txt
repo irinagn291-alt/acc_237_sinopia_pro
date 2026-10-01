@@ -1,3 +1,3 @@
-Version 1.0 introduces Sinopia, a shared daily drawing leaf for two people who use one device.
-
-Sketch both halves of today's leaf, use Press when both sides hold ink to lock the day as a keepsake, browse pressed leaves newest first on Leaves, name both people and Swap inks in People, and Share a pressed leaf as a PNG. There is no login and no account. Data stays on this device unless you use Share.
+Version 1.1 keeps Sinopia Pro polished and reliable.
+• Stability and performance improvements
+• Small refinements throughout the app

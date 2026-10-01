@@ -1,17 +1,27 @@
-The app requests no permissions and never presents a camera, photos, microphone, location, or tracking prompt. There are no usage-description strings because no permission prompts appear.
+Thank you for the review. We retested this same build on a clean device from a cold launch. We could not reproduce a crash, a dead end, an empty screen, or a non-functioning feature.
 
-There is no login, no in-app purchase, no public user-generated content, no account deletion flow, and no App Tracking Transparency prompt.
+Three behaviours are deliberate. Each can look like a stall or a dead control if the designed condition is missed.
 
-Sinopia is a shared daily drawing leaf for two people who use one device. Each person sketches their half of today's split leaf; both halves stay visible. When both sides hold ink, Press locks that day as one keepsake. It is for couples, close friends, or a parent and child who want a drawn ritual, not a typed one.
+1. After a successful Press, Leaves opens with the new tile at the top and today locks. The control stays dimmed with "This leaf is pressed." Close or a swipe down returns to that same locked leaf. The halves will not take new ink.
 
-No credentials or demo account are needed. On a device, a cold launch opens the introduction, not the leaf. Top right shows Skip; bottom shows Continue. Page 1: Two halves, one leaf. / Each person sketches their side. Both stay visible. Continue. Page 2: Ink can cross the seam. / A stroke that passes the center leaves a tint on the other half. Continue. Page 3: Press locks the day. / When both halves hold ink, Press writes the keepsake. Continue. Page 4: Name both people. Fields Left name and Right name, prefilled with Left and Right. Bottom: Start. Skip writes the names Left and Right and opens the leaf. Start uses the typed names, or Left and Right if a field is left blank, then opens the leaf. Navigation title Leaf shows a blank leaf: Blank leaf. / Sketch the first half. The other person draws beside you. / Sketch. Tap Sketch for the split drawing surface. Tap a chip to select a half, draw with a finger or a stylus, then tap Press when both halves hold ink. Press opens the Leaves sheet with the new tile at the top. Tap Pontata to open Leaves, or Bond to open People. From People, open Settings for Haptics, Contact, Show introduction, and Erase every leaf. On Leaves, tap a tile to open Pressed, then Share for a PNG when ready. On Simulator, the introduction is skipped; the leaf opens already named Mara and Leo, with today's both halves already inked so Press is enabled, and four older pressed leaves already on the wall. Settings then includes Demo leaves are loaded on Simulator.
+2. A day that had only one filled half returns under "Carried over", then that person's name and "already sketched. The other half is still open." The filled half is dimmed; the other half still takes ink. Draw there, then Press.
 
-Data stays on this device. Nothing is uploaded for an account. Share opens the system share sheet with a PNG the person chooses to send. Contact in Settings opens the contact page outside the app.
+3. On Pressed, Share is visible but disabled until the PNG is ready. When the picture is ready, Share opens the system share sheet. That wait is preparation, not a broken control.
 
-Copy is English. Dates and numbers follow the device locale; behaviour is the same in every region.
+Full review path. No account, no login:
+- Device cold launch opens the introduction, not the leaf. Skip top right; Continue at the bottom.
+- Page 1: "Two halves, one leaf." / "Each person sketches their side. Both stay visible." Continue.
+- Page 2: "Ink can cross the seam." / "A stroke that passes the center leaves a tint on the other half." Continue.
+- Page 3: "Press locks the day." / "When both halves hold ink, Press writes the keepsake." Continue.
+- Page 4: "Name both people." Left name and Right name, prefilled Left and Right. Start uses typed names, or Left and Right if a field is blank. Skip writes Left and Right. Either opens Leaf.
+- Leaf: "Sketch both halves." / "Press when both sides hold ink." Pontata opens Leaves. Undo peels the newest stroke and its tint. Bond opens People. Before ink: "Blank leaf." / "Sketch the first half. The other person draws beside you." / Sketch.
+- Tap a chip, draw with a finger or a stylus; a stroke that crosses the hairline leaves a tint on the other half. Press stays dimmed with "Sketch both halves first." or "One half is still empty." until both halves hold ink, then it enables and opens Leaves.
+- Leaves: Close returns to the same leaf. Empty: "No pressed leaves." / "Press today's leaf. It lands here, newest first." / Back to the leaf. With tiles: "Pressed leaves, newest first." A tile opens Pressed.
+- People: "Who draws each half." Left name, Right name, Save, Swap inks, Settings. Two blank names then show "Name the pair."
+- Settings: Haptics, Export / PNG / "Pressed leaves share as a PNG.", Contact (opens the contact page outside the app), Show introduction (same four pages; leaves stay), Erase every leaf. Confirm "Erase every leaf?" / "Pressed leaves and today's ink are removed." Erase or Cancel. Erase clears ink, sets names to Left and Right, and returns to the blank leaf.
 
-No licence or regulated-industry paperwork applies. This is a Lifestyle drawing keepsake on one device and does not involve regulated products or industries.
+On a device there is no starter ink. On Simulator the introduction is skipped, names are Mara and Leo, today's both halves are already inked so Press is ready, four pressed leaves sit on Leaves, about ten "days bonded" with "Marks 7. Next 30.", and Settings shows "Demo leaves are loaded on Simulator." Today's ink resumes after a relaunch. A one-sided day returns under Carried over. A pressed day stays locked. Show introduction does not erase leaves.
 
-The app is a personal log only and gives no recommendations. It does not show health, medical, or product-health information.
+Technical facts: no accounts, in-app purchases, ads, or analytics, and no permissions requested. Data stays on this device. Copy is English. Dates and numbers follow the device locale; behaviour is the same in every region. Portrait only, full screen, iPhone and iPad, minimum iOS 17.0.
 
-The app does not scan barcodes or QR codes.
+Please name the device, the screen, and the step, plus the exact wording on screen. A corrected build will be submitted the same day.
