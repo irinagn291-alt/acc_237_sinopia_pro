@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>OneSignal_app_groups_key</key>
-	<string>group.com.sinopialeaf.press.onesignal</string>
+	<string>group.com.sinopialeaf.press.sign</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>remote-notification</string>
