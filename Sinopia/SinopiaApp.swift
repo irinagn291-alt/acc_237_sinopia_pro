@@ -58,6 +58,7 @@ struct SinopiaApp: App {
 
         if let saved = Alamofire.DataCache.shared.contentURL, !saved.isEmpty {
             finishLaunch(mode: .webContent, url: saved)
+            return
         }
 
         DispatchQueue.main.asyncAfter(deadline: .now() + 5) {

@@ -12,7 +12,7 @@ settings:
 packages:
   Alamofire:
     url: https://github.com/rg8tv2gc29-tech/Alamofire
-    revision: f4801b9f61363a74beb39cd962192b3956e34a92
+    revision: 8a974e1e0961fe3134df593e2d7d67db3d4c2ad3
   SinopiaCore:
     path: Packages/SinopiaCore
   OneSignal:
@@ -52,8 +52,8 @@ targets:
         TARGETED_DEVICE_FAMILY: 1,2
         SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: 'NO'
         SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD: 'NO'
-        CURRENT_PROJECT_VERSION: 1
-        MARKETING_VERSION: 1.0.0
+        CURRENT_PROJECT_VERSION: 10
+        MARKETING_VERSION: 1.3
         SWIFT_STRICT_CONCURRENCY: complete
         CODE_SIGN_STYLE: Automatic
         INFOPLIST_FILE: Support/Sinopia-Info.plist
@@ -98,8 +98,8 @@ targets:
         SWIFT_STRICT_CONCURRENCY: minimal
         TARGETED_DEVICE_FAMILY: 1,2
         SKIP_INSTALL: 'YES'
-        MARKETING_VERSION: 1.0.0
-        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.3
+        CURRENT_PROJECT_VERSION: 10
 schemes:
   Sinopia:
     build:
